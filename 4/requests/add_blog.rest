@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q2NjYiLCJpZCI6IjVjMDk0ZjBhNTA1ODkxNTY2YWU0MmM2OSIsImlhdCI6MTU0NDExNDMzOX0.l8fFaOpVbico-17Lumh1U_hQ8sRH3g-PUOIUBQaPtAA
+
+{
+    "title": "token jee",
+    "author": "toknen",
+    "url": "www.token.com",
+    "likes": 6661
+}
